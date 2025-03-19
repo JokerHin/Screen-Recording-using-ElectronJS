@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron Screen Recorder</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+      video {
+        width: 80%;
+        max-width: 800px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+      button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+      }
+      #videoSelectBtn {
+        background-color: #007bff;
+        color: white;
+      }
+      #startBtn {
+        background-color: #28a745;
+        color: white;
+      }
+      #stopBtn {
+        background-color: #dc3545;
+        color: white;
+      }
+      #recordingIndicator {
+        position: fixed;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        align-items: center;
+        font-size: 16px;
+        color: red;
+        font-weight: bold;
+      }
+      #recordingIndicator .dot {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+      #selectMenu {
+        margin: 5px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        color: #333;
+        width: 200px;
+      }
+      #selectMenu:focus {
+        outline: none;
+        border-color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="recordingIndicator">
+      <div class="dot"></div>
+      <span id="recordingTime">00:00</span>
+    </div>
+    <h1>🎥 Electron Screen Recorder</h1>
+    <video id="videoElement" autoplay></video>
+    <div>
+      <select id="selectMenu">
+        <option value="" disabled selected>Select a source</option>
+      </select>
+      <button id="videoSelectBtn">Choose Source</button>
+      <button id="startBtn">Start Recording</button>
+      <button id="stopBtn" disabled>Stop Recording</button>
+    </div>
+    <script defer src="render.js"></script>
+  </body>
+</html>

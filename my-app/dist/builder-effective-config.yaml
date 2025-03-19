@@ -1,0 +1,21 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.videorecording
+productName: Video Recording Electron
+files:
+  - filter:
+      - src/**/*
+      - main.js
+      - package.json
+win:
+  icon: assets/icons/icon.ico
+  target: nsis
+  signAndEditExecutable: false
+mac:
+  icon: assets/icons/icon.icns
+  target: dmg
+linux:
+  icon: assets/icons
+  target: AppImage
+electronVersion: 35.0.2
