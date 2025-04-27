@@ -8,7 +8,6 @@ This project is a simple and lightweight desktop application built with **Electr
 ## 🚀 Features
 
 - 🎬 **Record entire screen or a specific window**
-- 🎙️ **Capture system audio and microphone (optional)**
 - 💾 **Save recordings in WebM or MP4 format**
 - 🖥️ **Minimalistic and user-friendly interface**
 - ⚡ **Fast and lightweight performance**
