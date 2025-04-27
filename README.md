@@ -19,7 +19,7 @@ This project is a simple and lightweight desktop application built with **Electr
 
 > *(You can add a GIF or screenshot here)*
 
-![Demo Screenshot](link-to-your-screenshot-or-demo.gif)
+![Demo Screenshot](./demo.png)
 
 ---
 
