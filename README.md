@@ -17,8 +17,6 @@ This project is a simple and lightweight desktop application built with **Electr
 
 ## 📸 Demo
 
-> *(You can add a GIF or screenshot here)*
-
 ![Demo Screenshot](./demo.png)
 
 ---
