@@ -80,33 +80,5 @@ Screen-Recording-using-ElectronJS/
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! 🎉  
-Feel free to open an issue or submit a pull request.
-
-1. Fork this repository
-2. Create a new branch (`git checkout -b feature/your-feature-name`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature-name`)
-5. Open a pull request
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-Have questions or suggestions? Feel free to reach out!
-
-- GitHub: [your-github-username](https://github.com/your-github-username)
-- Email: your.email@example.com
-
----
-
-# 🌟 Don't forget to Star the repo if you find it useful!
 
